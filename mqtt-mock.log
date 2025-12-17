@@ -1,0 +1,51 @@
+nohup: ignoring input
+2025-12-17 21:07:30,097 INFO 
+======================================================================
+2025-12-17 21:07:30,097 INFO MQTT Mock Washer Socket - Ready for Testing
+2025-12-17 21:07:30,098 INFO ======================================================================
+2025-12-17 21:07:30,098 INFO Connected to MQTT: 192.168.0.247:1883
+2025-12-17 21:07:30,098 INFO Walltime override: 15.0 min (target ~0.5s/publish)
+2025-12-17 21:07:30,098 INFO Effective (for LONG): speedup ~6.13x, sample ~3s
+2025-12-17 21:07:30,098 INFO Configured (raw args): Speedup: 720.0x, Jitter: ±2.0W, Sample: 60s
+
+2025-12-17 21:07:30,099 INFO NORMAL CYCLES (toggle switch or publish to command topic):
+2025-12-17 21:07:30,099 INFO   ON or LONG        - Full 2:39 cycle
+2025-12-17 21:07:30,099 INFO   MEDIUM            - Mid-length 1:30 cycle
+2025-12-17 21:07:30,099 INFO   SHORT             - Quick 0:45 cycle
+
+2025-12-17 21:07:30,099 INFO FAULT SCENARIOS (append mode to cycle type):
+2025-12-17 21:07:30,099 INFO   LONG_DROPOUT      - Sensor offline mid-cycle (tests watchdog timeout)
+2025-12-17 21:07:30,099 INFO   MEDIUM_GLITCH     - Power spikes/dips (tests smoothing)
+2025-12-17 21:07:30,099 INFO   SHORT_STUCK       - Phase stuck in loop (tests forced end)
+2025-12-17 21:07:30,100 INFO   LONG_INCOMPLETE   - Never finishes (tests stale detection)
+
+2025-12-17 21:07:30,100 INFO EXAMPLES:
+2025-12-17 21:07:30,100 INFO   mosquitto_pub -t homeassistant/switch/mock_washer_power/set -m 'LONG'
+2025-12-17 21:07:30,100 INFO   mosquitto_pub -t homeassistant/switch/mock_washer_power/set -m 'MEDIUM_GLITCH'
+2025-12-17 21:07:30,100 INFO   mosquitto_pub -t homeassistant/switch/mock_washer_power/set -m 'OFF'
+2025-12-17 21:07:30,100 INFO ======================================================================
+
+2025-12-17 21:07:30,101 INFO [CONTINUOUS] Starting cycle 1: LONG
+2025-12-17 21:07:30,102 INFO [VARIANCE] Applied -14.9% duration variance (factor: 0.85x)
+2025-12-17 21:07:57,520 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:08:39,875 INFO [GLITCH] Power dip at phase 2
+2025-12-17 21:08:47,956 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:09:07,301 INFO [GLITCH] Power dip at phase 2
+2025-12-17 21:09:29,092 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:10:00,194 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:10:27,382 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:10:28,608 INFO [GLITCH] Power spike at phase 2
+2025-12-17 21:11:37,404 INFO [GLITCH] Power spike at phase 3
+2025-12-17 21:11:45,484 INFO [GLITCH] Power spike at phase 3
+2025-12-17 21:11:51,120 INFO [GLITCH] Power spike at phase 3
+2025-12-17 21:12:15,357 INFO [GLITCH] Power dip at phase 3
+2025-12-17 21:12:36,657 INFO [GLITCH] Power dip at phase 3
+2025-12-17 21:12:49,142 INFO [GLITCH] Power dip at phase 3
+2025-12-17 21:13:36,885 INFO [GLITCH] Power dip at phase 4
+2025-12-17 21:15:02,815 INFO [GLITCH] Power spike at phase 5
+2025-12-17 21:15:06,489 INFO [GLITCH] Power dip at phase 5
+2025-12-17 21:15:08,693 INFO [GLITCH] Power dip at phase 5
+2025-12-17 21:15:48,613 INFO [GLITCH] Power dip at phase 6
+2025-12-17 21:15:52,776 INFO [GLITCH] Power spike at phase 6
+2025-12-17 21:16:07,228 INFO [GLITCH] Power spike at phase 6
+2025-12-17 21:18:35,547 INFO [GLITCH] Power dip at phase 8
