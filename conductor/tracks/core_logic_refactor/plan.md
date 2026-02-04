@@ -9,18 +9,18 @@
 - [x] Task: Conductor - User Manual Verification 'Test Suite Repair' (Protocol in workflow.md)
 
 ## Phase 2: State Machine Enhancements
-- [ ] Task: Review `CycleDetector` in `custom_components/ha_washdata/cycle_detector.py` and confirm `start_energy_threshold` integration.
-    - [ ] Sub-task: Write/Update unit tests to verify `start_energy` gate behavior with new test data.
-    - [ ] Sub-task: Refine implementation if gaps are found during testing.
-- [ ] Task: Review `CycleDetector` and confirm `end_energy_threshold` integration.
-    - [ ] Sub-task: Write/Update unit tests to verify `end_energy` gate behavior prevents premature finish.
-    - [ ] Sub-task: Refine implementation if gaps are found during testing.
-- [ ] Task: Conductor - User Manual Verification 'State Machine Enhancements' (Protocol in workflow.md)
+- [x] Task: Review `CycleDetector` in `custom_components/ha_washdata/cycle_detector.py` and confirm `start_energy_threshold` integration.
+    - [x] Sub-task: Write/Update unit tests to verify `start_energy` gate behavior with new test data.
+    - [x] Sub-task: Refine implementation if gaps are found during testing.
+- [x] Task: Review `CycleDetector` and confirm `end_energy_threshold` integration.
+    - [x] Sub-task: Write/Update unit tests to verify `end_energy` gate behavior prevents premature finish.
+    - [x] Sub-task: Refine implementation if gaps are found during testing.
+- [x] Task: Conductor - User Manual Verification 'State Machine Enhancements' (Protocol in workflow.md)
 
 ## Phase 3: Matching Pipeline Optimization
-- [ ] Task: Review `compute_matches_worker` in `custom_components/ha_washdata/analysis.py`.
-    - [ ] Sub-task: Verify "Fast Reject" logic (duration checks).
-    - [ ] Sub-task: Verify "Core Similarity" calculation (Correlation/MAE).
-    - [ ] Sub-task: Verify "DTW-Lite" implementation and integration for top candidates.
-- [ ] Task: Optimize `compute_dtw_lite` or `compute_matches_worker` if bottlenecks are identified during testing.
-- [ ] Task: Conductor - User Manual Verification 'Matching Pipeline Optimization' (Protocol in workflow.md)
+- [x] Task: Review `compute_matches_worker` in `custom_components/ha_washdata/analysis.py`. [checkpoint: 0.4.1.1]
+    - [x] Sub-task: Verify "Fast Reject" logic (duration checks).
+    - [x] Sub-task: Verify "Core Similarity" calculation (Correlation/MAE).
+    - [x] Sub-task: Verify "DTW-Lite" implementation and integration for top candidates.
+- [x] Task: Optimize `compute_dtw_lite` or `compute_matches_worker` if bottlenecks are identified during testing.
+- [x] Task: Conductor - User Manual Verification 'Matching Pipeline Optimization' (Protocol in workflow.md)
