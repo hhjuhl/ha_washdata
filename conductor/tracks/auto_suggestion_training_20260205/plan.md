@@ -22,9 +22,9 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Refactoring & Logic Modularization' (Protocol in workflow.md) 7f95aff
 
 ## Phase 3: On-Device Simulation Engine (Runtime)
-- [ ] Task: Implement Simulation Runner
-    - [ ] Add `run_simulation(cycle_data)` method to `SuggestionEngine`.
-    - [ ] Implement the logic to "replay" the cycle with varied parameters (based on Phase 1 rules).
+- [x] Task: Implement Simulation Runner 373a00f
+    - [x] Add `run_simulation(cycle_data)` method to `SuggestionEngine`.
+    - [x] Implement the logic to "replay" the cycle with varied parameters (based on Phase 1 rules).
 - [ ] Task: Integrate Background Trigger
     - [ ] Modify `manager.py` to trigger `SuggestionEngine.run_simulation` after a cycle is saved.
     - [ ] Ensure this runs asynchronously/non-blocking.
