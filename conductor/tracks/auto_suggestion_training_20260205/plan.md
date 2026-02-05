@@ -25,9 +25,9 @@
 - [x] Task: Implement Simulation Runner 373a00f
     - [x] Add `run_simulation(cycle_data)` method to `SuggestionEngine`.
     - [x] Implement the logic to "replay" the cycle with varied parameters (based on Phase 1 rules).
-- [ ] Task: Integrate Background Trigger
-    - [ ] Modify `manager.py` to trigger `SuggestionEngine.run_simulation` after a cycle is saved.
-    - [ ] Ensure this runs asynchronously/non-blocking.
+- [x] Task: Integrate Background Trigger 0a183db
+    - [x] Modify `manager.py` to trigger `SuggestionEngine.run_simulation` after a cycle is saved.
+    - [x] Ensure this runs asynchronously/non-blocking.
 - [ ] Task: Cumulative Learning Storage
     - [ ] Implement a mechanism to store "learned state" so learning persists across restarts.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: On-Device Simulation Engine (Runtime)' (Protocol in workflow.md)
