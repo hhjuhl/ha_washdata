@@ -15,10 +15,10 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Benchmark Suite & Heuristic Optimization (Offline)' (Protocol in workflow.md) 07df469
 
 ## Phase 2: Refactoring & Logic Modularization
-- [ ] Task: Extract Auto-Suggestion Logic
-    - [ ] Create `custom_components/ha_washdata/suggestion_engine.py`.
-    - [ ] Move and encapsulate the core suggestion logic from `learning.py` into a `SuggestionEngine` class.
-    - [ ] Ensure existing tests pass after refactoring.
+- [x] Task: Extract Auto-Suggestion Logic 88844fb
+    - [x] Create `custom_components/ha_washdata/suggestion_engine.py`.
+    - [x] Move and encapsulate the core suggestion logic from `learning.py` into a `SuggestionEngine` class.
+    - [x] Ensure existing tests pass after refactoring.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Refactoring & Logic Modularization' (Protocol in workflow.md)
 
 ## Phase 3: On-Device Simulation Engine (Runtime)
