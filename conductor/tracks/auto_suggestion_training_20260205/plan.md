@@ -1,7 +1,7 @@
 # Implementation Plan - Advanced Auto-Suggestion & On-Device Training
 
-## Phase 1: Benchmark Suite & Heuristic Optimization (Offline)
-- [x] Task: Create Benchmark Infrastructure
+## Phase 1: Benchmark Suite & Heuristic Optimization (Offline) [checkpoint: 07df469]
+- [x] Task: Create Benchmark Infrastructure 6db2335
     - [x] Create `tests/benchmarks/` directory.
     - [x] Create `tests/benchmarks/parameter_optimizer.py`.
     - [x] Implement data loader to ingest traces from `cycle_data/` and `test_data/`.
@@ -12,7 +12,7 @@
     - [x] Implement the "scoring function" that penalizes false positives, clipping, and instability.
     - [x] Execute sweeps against known good traces.
     - [x] Document the derived rules in `conductor/tracks/auto_suggestion_training_20260205/heuristics.md`.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Benchmark Suite & Heuristic Optimization (Offline)' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Benchmark Suite & Heuristic Optimization (Offline)' (Protocol in workflow.md) 07df469
 
 ## Phase 2: Refactoring & Logic Modularization
 - [ ] Task: Extract Auto-Suggestion Logic
