@@ -8,10 +8,10 @@
 - [x] Task: Define Suggestion Logic for New Parameters 6a3df3d
     - [x] Implement logic to derive `start_threshold_w`, `stop_threshold_w`, `min_off_gap`, and `running_dead_zone`.
     - [x] Implement logic to derive Energy thresholds (`start_energy_threshold`, `end_energy_threshold`).
-- [ ] Task: Implement Parameter Sweep & Scoring
-    - [ ] Implement the "scoring function" that penalizes false positives, clipping, and instability.
-    - [ ] Execute sweeps against known good traces.
-    - [ ] Document the derived rules in `conductor/tracks/auto_suggestion_training_20260205/heuristics.md`.
+- [x] Task: Implement Parameter Sweep & Scoring 6db2335
+    - [x] Implement the "scoring function" that penalizes false positives, clipping, and instability.
+    - [x] Execute sweeps against known good traces.
+    - [x] Document the derived rules in `conductor/tracks/auto_suggestion_training_20260205/heuristics.md`.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Benchmark Suite & Heuristic Optimization (Offline)' (Protocol in workflow.md)
 
 ## Phase 2: Refactoring & Logic Modularization
