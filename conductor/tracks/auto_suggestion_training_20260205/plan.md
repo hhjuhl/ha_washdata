@@ -33,8 +33,8 @@
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: On-Device Simulation Engine (Runtime)' (Protocol in workflow.md)
 
 ## Phase 4: UI & Integration Finalization
-- [ ] Task: Expose Suggestions to UI
-    - [ ] Update sensors to reflect new dynamic suggestions.
+- [x] Task: Expose Suggestions to UI c415d35
+    - [x] Update sensors to reflect new dynamic suggestions.
 - [ ] Task: Validation & Tuning
     - [ ] Run end-to-end tests with simulated cycles to verify suggestions update correctly.
 - [ ] Task: Conductor - User Manual Verification 'Phase 4: UI & Integration Finalization' (Protocol in workflow.md)
