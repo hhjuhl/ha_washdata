@@ -13,7 +13,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Verification & Quality Assurance
-- [ ] Task: Run full test suite to ensure no regressions in matching logic.
-- [ ] Task: Verify code coverage for the new checks in `profile_store.py` (>80%).
-- [ ] Task: Perform a final code audit against project style guides.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Verification & Quality Assurance' (Protocol in workflow.md)
+- [x] Task: Run full test suite to ensure no regressions in matching logic.
+- [x] Task: Verify code coverage for the new checks in `profile_store.py` (>80%).
+- [x] Task: Perform a final code audit against project style guides.
+- [~] Task: Conductor - User Manual Verification 'Phase 3: Verification & Quality Assurance' (Protocol in workflow.md)
