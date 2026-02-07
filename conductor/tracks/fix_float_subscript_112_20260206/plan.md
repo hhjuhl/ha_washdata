@@ -6,11 +6,11 @@
 - [x] Task: Verify that the new test fails with `TypeError: 'float' object is not subscriptable`.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Investigation & Reproduction' (Protocol in workflow.md)
 
-## Phase 2: Implementation (Green Phase)
+## Phase 2: Implementation (Green Phase) [checkpoint: 563e788]
 - [x] Task: Implement defensive checks in `custom_components/ha_washdata/profile_store.py` within `async_verify_alignment`.
-- [~] Task: Enhance error logging in `custom_components/ha_washdata/manager.py` to capture context on matching failure.
+- [x] Task: Enhance error logging in `custom_components/ha_washdata/manager.py` to capture context on matching failure.
 - [x] Task: Verify the reproduction test now passes (Green Phase).
-- [~] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Verification & Quality Assurance
 - [ ] Task: Run full test suite to ensure no regressions in matching logic.
