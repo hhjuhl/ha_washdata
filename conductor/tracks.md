@@ -6,7 +6,7 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ## Active Tracks
 
-- [ ] **Track: [BUG] Finished state is not removed**
+- [x] **Track: [BUG] Finished state is not removed**
 *Link: [./tracks/fix_finished_state_expiry_20260206/](./tracks/fix_finished_state_expiry_20260206/)*
 
 - [ ] **Track: [BUG] Power entity stuck at last non-zero value after cycle ends #101**
