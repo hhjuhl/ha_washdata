@@ -15,6 +15,6 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md) 5811dfb
 
 ## Phase 3: Verification & Quality Assurance
-- [ ] Task: Run integration tests (`test_integration_flow.py`) to ensure no regressions in cycle transitions.
+- [x] Task: Run integration tests (`test_integration_flow.py`) to ensure no regressions in cycle transitions. 3356c8a
 - [ ] Task: Verify code coverage for the new expiry logic (>80%).
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Verification & Quality Assurance' (Protocol in workflow.md)
