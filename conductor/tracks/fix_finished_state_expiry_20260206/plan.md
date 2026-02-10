@@ -6,13 +6,13 @@
 - [x] Task: Verify that the test fails (state remains "Finished" after 31 minutes). 5ee1892
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Investigation & Reproduction' (Protocol in workflow.md) 458e20e
 
-## Phase 2: Implementation (Green Phase)
+## Phase 2: Implementation (Green Phase) [checkpoint: 5811dfb]
 - [x] Task: Consolidate `_check_progress_reset` into a unified `_handle_state_expiry` logic in `manager.py`. 60d064a
 - [x] Task: Update `_start_progress_reset_timer` (or rename to `_start_state_expiry_timer`) to use the 30-minute threshold. 60d064a
 - [x] Task: Implement the force-reset logic (Detector state -> OFF, Progress -> 0%) in the timer callback. 60d064a
 - [x] Task: Ensure the timer is stopped when a new cycle is detected in `manager.py`. 60d064a
 - [x] Task: Verify the reproduction test now passes (Green Phase). 60d064a
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md) 5811dfb
 
 ## Phase 3: Verification & Quality Assurance
 - [ ] Task: Run integration tests (`test_integration_flow.py`) to ensure no regressions in cycle transitions.
