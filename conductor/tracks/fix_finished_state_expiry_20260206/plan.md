@@ -14,7 +14,7 @@
 - [x] Task: Verify the reproduction test now passes (Green Phase). 60d064a
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md) 5811dfb
 
-## Phase 3: Verification & Quality Assurance
+## Phase 3: Verification & Quality Assurance [checkpoint: 369e944]
 - [x] Task: Run integration tests (`test_integration_flow.py`) to ensure no regressions in cycle transitions. 3356c8a
 - [x] Task: Verify code coverage for the new expiry logic (>80%). 545a236
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Verification & Quality Assurance' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Verification & Quality Assurance' (Protocol in workflow.md) 369e944
