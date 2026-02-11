@@ -6,7 +6,7 @@
 - [x] Task: Implement jitter and non-compliant polling rate reporting. `[ ]`
 - [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md) [x]
 
-## Phase 2: Measure Feature Fixes
+## Phase 2: Measure Feature Fixes [checkpoint: 1792749]
 - [x] Task: Investigate and fix the empty measurement overlay bug when highlighting. `[ ]`
 - [x] Task: Implement the enhanced data calculations (Peak, Avg, Duration, Wh, Variance, Timestamps). [x]
 - [x] Task: Update the UI to display the new measurement fields. `[ ]`
