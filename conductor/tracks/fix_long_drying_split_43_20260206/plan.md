@@ -15,7 +15,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Documentation & QA
-- [ ] Task: Update `IMPLEMENTATION.md` with details on handling multi-hour passive drying.
-- [ ] Task: Add an entry to `CHANGELOG.md` about improved dishwasher support and long pause handling.
-- [ ] Task: Run full test suite to ensure no regressions in shorter cycle detection.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Documentation & QA' (Protocol in workflow.md)
+- [x] Task: Update `IMPLEMENTATION.md` with details on handling multi-hour passive drying.
+- [x] Task: Add an entry to `CHANGELOG.md` about improved dishwasher support and long pause handling.
+- [x] Task: Run full test suite to ensure no regressions in shorter cycle detection.
+- [~] Task: Conductor - User Manual Verification 'Phase 3: Documentation & QA' (Protocol in workflow.md)
