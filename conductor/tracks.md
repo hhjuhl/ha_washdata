@@ -54,3 +54,8 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 - [x] **Track: Advanced Auto-Suggestion & On-Device Training**
   *Link: [./conductor/archive/auto_suggestion_training_20260205/](./conductor/archive/auto_suggestion_training_20260205/)*
+
+---
+
+- [x] **Track: Update mqtt_mock_socket for Enhanced Realism and UI Features**
+*Link: [./tracks/update_mock_socket_20260211/](./tracks/update_mock_socket_20260211/)*
