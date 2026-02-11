@@ -13,8 +13,8 @@
 - [x] Task: Verify the reproduction test now passes (Green Phase). 55ff811
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
 
-## Phase 3: Documentation & QA
+## Phase 3: Documentation & QA [checkpoint: 49c1dfe]
 - [x] Task: Update `README.md` and `IMPLEMENTATION.md` to document the new sensor and its purpose for `timer-bar-card`. cf21abc
 - [x] Task: Add an entry to `CHANGELOG.md` for the new feature.
 - [x] Task: Run the full test suite to ensure no regressions in sensor registration or manager logic.
-- [~] Task: Conductor - User Manual Verification 'Phase 3: Documentation & QA' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Documentation & QA' (Protocol in workflow.md)
