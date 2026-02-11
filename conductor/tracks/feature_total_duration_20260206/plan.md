@@ -6,12 +6,12 @@
 - [x] Task: Verify that the sensor is currently missing/not registered. 643b882
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Investigation & Verification' (Protocol in workflow.md)
 
-## Phase 2: Implementation (Green Phase)
+## Phase 2: Implementation (Green Phase) [checkpoint: 2eeff36]
 - [x] Task: Add `_total_duration` and `_last_total_duration_update` logic to `WashDataManager` in `manager.py`. 55ff811
 - [x] Task: Implement `WasherTotalDurationSensor` in `sensor.py` with `device_class: duration` and `unit_of_measurement: min`. 55ff811
 - [x] Task: Ensure `manager.py` updates the total duration whenever a confident match is made or estimates are refined. 55ff811
 - [x] Task: Verify the reproduction test now passes (Green Phase). 55ff811
-- [~] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Documentation & QA
 - [ ] Task: Update `README.md` and `IMPLEMENTATION.md` to document the new sensor and its purpose for `timer-bar-card`.
