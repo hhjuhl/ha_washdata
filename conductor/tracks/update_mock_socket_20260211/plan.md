@@ -19,6 +19,6 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md) [x]
 
 ## Phase 4: Verification & Polishing
-- [ ] Task: Run integration tests to ensure existing features remain intact. `[ ]`
-- [ ] Task: Perform manual verification of all new realism artifacts and UI features. `[ ]`
-- [ ] Task: Conductor - User Manual Verification 'Phase 4' (Protocol in workflow.md) `[ ]`
+- [x] Task: Run integration tests to ensure existing features remain intact. [x]
+- [x] Task: Perform manual verification of all new realism artifacts and UI features. [x]
+- [x] Task: Conductor - User Manual Verification 'Phase 4' (Protocol in workflow.md) [x]
